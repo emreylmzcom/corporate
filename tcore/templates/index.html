@@ -1,0 +1,27 @@
+
+{% extends 'base.html' %}
+{%load static%}
+
+{% block title %}Anasayfa{% endblock %}
+{% block description %}Emre Yılmaz{% endblock %}
+{% block keywords %}Emre YILMAZ, Emre, Yılmaz{% endblock %}
+
+<!--- Sayfaya özel css/js başlangıç -->
+
+
+{% block extracss%}
+<link rel="stylesheet" href="{% static 'css/spesific.css' %}">
+{% endblock %}
+
+{% block extrajs %}
+{% endblock %}
+
+
+<!--- Sayfaya özel css/js son -->
+
+
+
+{% block content %}
+    <h1>Template</h1>
+    <p>This is a template.</p>
+{% endblock %}
