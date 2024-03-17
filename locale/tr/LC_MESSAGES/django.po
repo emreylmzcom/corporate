@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-15 23:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: corporate/settings.py:112
+msgid "Turkish"
+msgstr ""
+
+#: corporate/settings.py:113
+msgid "English"
+msgstr ""
+
+#: tcore/templates/blog.html:35 tcore/templates/index.html:163
+#: tcore/templates/index.html:175 tcore/templates/index.html:187
+#: tcore/templates/index.html:198
+msgid "Detaylar"
+msgstr ""
+
+#: tcore/templates/blog.html:64
+msgid "Arama"
+msgstr ""
+
+#: tcore/templates/blog.html:69
+msgid "Arama yap"
+msgstr ""
+
+#: tcore/templates/blog.html:77
+msgid "Popüler Blog"
+msgstr ""
+
+#: tcore/templates/blog.html:116
+msgid "Kategoriler"
+msgstr ""
+
+#: tcore/templates/blog.html:133
+msgid "Etiketler"
+msgstr ""
+
+#: tcore/templates/contact.html:12
+msgid "İletişim Formu"
+msgstr ""
+
+#: tcore/templates/contact.html:15
+msgid "Ad Soyad"
+msgstr ""
+
+#: tcore/templates/contact.html:19
+msgid "Telefon"
+msgstr ""
+
+#: tcore/templates/contact.html:23
+msgid "E-posta"
+msgstr ""
+
+#: tcore/templates/contact.html:27
+msgid "Mesaj"
+msgstr ""
+
+#: tcore/templates/contact.html:30
+msgid "Gönder"
+msgstr ""
+
+#: tcore/templates/index.html:8
+msgid "Kurumsal Web Sitesi V1"
+msgstr ""
+
+#: tcore/templates/index.html:45
+msgid "Hakkımızda"
+msgstr ""
+
+#: tcore/templates/index.html:58
+msgid "Daha Fazla"
+msgstr ""
+
+#: tcore/templates/index.html:69
+msgid "Servis"
+msgstr ""
+
+#: tcore/templates/service.html:12 templates/base.html:45
+msgid "Hizmetler"
+msgstr ""
+
+#: templates/base.html:39
+msgid "Anasayfa"
+msgstr ""
+
+#: templates/base.html:42
+msgid "Hakkımda"
+msgstr ""
+
+#: templates/base.html:51
+msgid "İletişim"
+msgstr ""
+
+#: templates/base.html:58
+msgid "Seçili Dİl"
+msgstr ""
