@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-15 23:30+0000\n"
+"POT-Creation-Date: 2024-09-15 18:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +18,105 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: corporate/settings.py:112
+#: corporate/settings.py:115
 msgid "Turkish"
 msgstr ""
 
-#: corporate/settings.py:113
+#: corporate/settings.py:116
 msgid "English"
 msgstr ""
+
+#: tcore/models.py:8 tcore/templates/contact.html:15
+msgid "Ad Soyad"
+msgstr "Full Name"
+
+#: tcore/models.py:9 tcore/models.py:97
+msgid "Telefon Numarası"
+msgstr "Phone Number"
+
+#: tcore/models.py:10 tcore/models.py:98
+msgid "Email Adresi"
+msgstr "E-mail Address"
+
+#: tcore/models.py:11 tcore/templates/contact.html:27
+msgid "Mesaj"
+msgstr "Messages"
+
+#: tcore/models.py:12 tcore/models.py:74
+msgid "Oluşturulma Tarihi"
+msgstr "Created Date"
+
+#: tcore/models.py:15 tcore/models.py:16 templates/base.html:51
+msgid "İletişim"
+msgstr "Contact"
+
+#: tcore/models.py:20 tcore/models.py:42 tcore/models.py:94
+msgid "Başlık"
+msgstr "Title"
+
+#: tcore/models.py:21 tcore/models.py:29 tcore/models.py:71
+msgid "İçerik"
+msgstr "Contact"
+
+#: tcore/models.py:24 tcore/models.py:25 tcore/templates/index.html:45
+msgid "Hakkımızda"
+msgstr "Abouts"
+
+#: tcore/models.py:28
+#, fuzzy
+#| msgid "Hizmetler"
+msgid "Hizmet Adı"
+msgstr "Services"
+
+#: tcore/models.py:38 tcore/models.py:39
+#, fuzzy
+#| msgid "Hizmetler"
+msgid "Hizmetlerim"
+msgstr "Services"
+
+#: tcore/models.py:43 tcore/models.py:70
+msgid "Resim"
+msgstr "İmage"
+
+#: tcore/models.py:52
+#, fuzzy
+#| msgid "Kategoriler"
+msgid "Kategori Adı"
+msgstr "Categories"
+
+#: tcore/models.py:64
+#, fuzzy
+#| msgid "Kategoriler"
+msgid "Kategori"
+msgstr "Categories"
+
+#: tcore/models.py:65 tcore/templates/blog.html:116
+msgid "Kategoriler"
+msgstr "Categories"
+
+#: tcore/models.py:75
+msgid "GÜncelleme Tarihi"
+msgstr "Update Date"
+
+#: tcore/models.py:96
+msgid "Anahtar Kelimeler"
+msgstr "Keywords"
+
+#: tcore/models.py:99
+msgid "İl"
+msgstr "City"
+
+#: tcore/models.py:100
+msgid "İlçe"
+msgstr "District"
+
+#: tcore/models.py:101
+msgid "Adres"
+msgstr "Address"
+
+#: tcore/models.py:109 tcore/models.py:110
+msgid "Ayarlar"
+msgstr "Settings"
 
 #: tcore/templates/blog.html:35 tcore/templates/index.html:163
 #: tcore/templates/index.html:175 tcore/templates/index.html:187
@@ -44,10 +136,6 @@ msgstr "Search"
 msgid "Popüler Blog"
 msgstr "Populars Blog"
 
-#: tcore/templates/blog.html:116
-msgid "Kategoriler"
-msgstr "Categories"
-
 #: tcore/templates/blog.html:133
 msgid "Etiketler"
 msgstr "Tags"
@@ -56,10 +144,6 @@ msgstr "Tags"
 msgid "İletişim Formu"
 msgstr "Contact Form"
 
-#: tcore/templates/contact.html:15
-msgid "Ad Soyad"
-msgstr "Full Name"
-
 #: tcore/templates/contact.html:19
 msgid "Telefon"
 msgstr "Telephone"
@@ -67,10 +151,6 @@ msgstr "Telephone"
 #: tcore/templates/contact.html:23
 msgid "E-posta"
 msgstr ""
-
-#: tcore/templates/contact.html:27
-msgid "Mesaj"
-msgstr "Messages"
 
 #: tcore/templates/contact.html:30
 msgid "Gönder"
@@ -81,10 +161,6 @@ msgstr "Send"
 #| msgid "Corporate Kurumsal İnternet Sitesi V1"
 msgid "Kurumsal Web Sitesi V1"
 msgstr "Corporate Website v1"
-
-#: tcore/templates/index.html:45
-msgid "Hakkımızda"
-msgstr "Abouts"
 
 #: tcore/templates/index.html:58
 msgid "Daha Fazla"
@@ -105,10 +181,6 @@ msgstr "Homepage"
 #: templates/base.html:42
 msgid "Hakkımda"
 msgstr "Abouts"
-
-#: templates/base.html:51
-msgid "İletişim"
-msgstr "Contact"
 
 #: templates/base.html:58
 msgid "Seçili Dİl"

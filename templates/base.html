@@ -22,7 +22,7 @@
 
 <!-- Üst kısımda yer alan logo -->
 <div class="container text-center mt-4">
-    <img width="230" src="/media/img/logo.png" alt="Logo" class="img-fluid">
+    <img width="230" src="{% get_media_prefix %}{{setting.logo_1}}" alt="{{setting.title}}" class="img-fluid">
     <p class="text-light">Your Demo Logo</p>
 </div>
 
@@ -55,7 +55,7 @@
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        {% translate "Seçili Dİl"%} : {{CURRENT_LANGUAGE}}
+                        {% translate "Seçili Dil"%} : {{CURRENT_LANGUAGE}}
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="languageDropdown">
                         {% for language in languages %}

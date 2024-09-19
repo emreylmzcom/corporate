@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 from django.utils.translation import gettext_lazy as _
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -32,7 +33,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'tcore', # Add this line to the list of installed apps
+    'tcore',
+    'ckeditor',
+    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -61,6 +64,7 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'tcore.context_processors.SettingList',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
@@ -113,6 +117,9 @@ LANGUAGES = [
     ('en', _('English')),
 ]
 
+MODELTRANSLATION_DEFAULT_LANGUAGE='tr'
+MODELTRANSLATION_LANGUAGE=('tr', 'en')
+
 TIME_ZONE = 'UTC'
 
 #Global Language
@@ -133,6 +140,13 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
+
+
+
+
+
+
+
 
 
 # Default primary key field type
