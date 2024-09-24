@@ -108,3 +108,4 @@ class Settings(models.Model):
     class Meta:
         verbose_name = _("Ayarlar")
         verbose_name_plural = _("Ayarlar")
+
